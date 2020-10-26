@@ -1,3 +1,49 @@
 /* Journey to the Center of the Earth Practicum */
 /* Erick Diaz Ramirez */
 
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image: url("../img/cave.jpg");
+    text-align: center;
+    background-size: cover;
+    color: #ffffff;
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+nav {
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+main {
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+aside {
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+footer {
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
