@@ -1,0 +1,174 @@
+/* Journey to the Center of the Earth Practicum */
+/* Erick Diaz Ramirez */
+
+body {
+    background: linear-gradient(#765729,#000000);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: white;
+    opacity: 0.75;
+    background-image: url("../img/cave.jpg");
+    background-size: cover;
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+h1{
+    color: #ffffff;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px;
+}
+
+
+
+nav {
+    background: white;
+    opacity: 0.75;
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+nav ul li {
+    border-right:3px double #886644;
+    padding-right: 30px;
+}
+nav ul li:nth-last-child(1) {
+    border-right: none;
+}
+
+main {
+    background: white;
+    opacity: 0.75;
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+main p:nth-last-child(7)::first-line {
+    font-size: 24px;
+}    
+
+aside {
+    background: white;
+    opacity: 0.75;
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+footer {
+    background: white;
+    opacity: 0.75;
+    border: 1px solid #886644;
+    box-shadow: inset 6px 8px 15px black;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 0 0 10px 10px;
+}
+
+h2 {
+    border-bottom: 1px dashed black;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #A52A2A;
+}
+
+#cover {
+    float: left;
+    width: 170px;
+    margin-right: 11px;
+}
+
+.character {
+    font-weight: bold;
+}
+.submission {
+    border: 1px solid #886644;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color:#F0F0F1;
+}
+
+.signature {
+    text-align: right;
+    margin-right: 15px;
+}
+
+#cryptogram img {
+    width: 100%;
+}
+
+#cryptogram figcaption {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+span:lang(fr), span:lang(is), span:lang(it), span:lang(it) {
+    font-style: italic;
+}
+
+@media only screen and (min-width: 786px) {
+    .myClass {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 50px;
+    }
+    .signature {
+        text-align: center;
+    }
+    nav ul {
+        justify-content: space-evenly;
+    }
+    nav ul li {
+        padding-right: 40px;
+        padding-left: 30px;
+    }
+    #cryptogram figcaption {
+        font-size: 22px;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .second {
+        display: grid;
+        grid-template-columns: 70% 30%;
+    }
+    .myClass {
+        display: block;
+    }
+    body {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
