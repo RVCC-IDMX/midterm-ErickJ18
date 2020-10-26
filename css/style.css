@@ -116,13 +116,16 @@ a:hover {
     margin-bottom: 20px;
     background-color:#F0F0F1;
 }
+
 .signature {
     text-align: right;
     margin-right: 15px;
 }
+
 #cryptogram img {
     width: 100%;
 }
+
 #cryptogram figcaption {
     font-size: 12px;
     font-style: italic;
@@ -132,3 +135,27 @@ a:hover {
 span:lang(fr), span:lang(is), span:lang(it), span:lang(it) {
     font-style: italic;
 }
+
+@media only screen and (min-width: 786px) {
+    .myClass {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 50px;
+    }
+    .signature {
+        text-align: center;
+    }
+    nav ul {
+        justify-content: space-evenly;
+    }
+    nav ul li {
+        padding-right: 40px;
+        padding-left: 30px;
+    }
+    #cryptogram figcaption {
+        font-size: 22px;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
